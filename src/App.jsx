@@ -21,13 +21,12 @@ const App = () => {
   })
   return (
     <div className='overflow-x-hidden'>
-    <h1>Hello Dreamcoder</h1>
-      {/* <Navbar /> */}
-      {/* <Home/>
+       <Navbar />
+       <Home/>
       <About/>
       <Banner/>
       <AppStore/>
-      <Testimonials/> */}
+      <Testimonials/>
       <Footer/>
     </div>
   )
