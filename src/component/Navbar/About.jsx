@@ -40,8 +40,8 @@ const About = () => {
         <div className="contaainer">
           {/* header title */}
           <div className="text-center mb-20">
-            <h1 className="text-4xl font-semibold text-[#242D6f]">
-            Why Choose Us
+            <h1 className="text-4xl font-serif text-[#242D6f]">
+            About Us
             </h1>
           </div>
 

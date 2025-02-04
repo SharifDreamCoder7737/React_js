@@ -5,6 +5,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Dream from "../../assets/Dream-removebg-preview.png"
 
 
 
@@ -42,7 +43,7 @@ const Footer = () => {
      <footer className="bg-[#606060] text-white py-10">
             <div className="container mx-auto flex flex-wrap justify-between">
                 <div className="w-full md:w-1/4 px-4 mb-6 md:mb-0">
-                    <img className="w-32 mt-5" src="https://www.regexsoftware.com/wp-content/uploads/2020/02/whatsapp-dp-1-e1590747617997.png" alt="" />
+                    <img className="w-40 mt-1 " src={Dream} alt="" />
                     <p className="mt-6">Our team is made up of highly dedicated professionals from many technological fields. Our main objective is to bridge the knowledge gap between business and academics via our training services.</p>
                 </div>
                 <div className="w-full md:w-1/4 px-4 mb-6 md:mb-0">
@@ -88,12 +89,13 @@ const Footer = () => {
                     <li className="mb-2 flex items-center">
                         <IoLocationSharp style={{ fontSize: "58px", marginRight: "8px" }} />
                         <i className="fas fa-map-marker-alt mr-2" style={{ fontSize: "20px" }}></i>
-                         B-35, 2nd floor next to vasantbahar colony, Gopalpura bypass, Jaipur
+                        Plot No – 1823 , Khawaja Nagar Sector -B ,
+                        Merta City Nagaur - 341510 
                     </li>
                        <li className="mb-2 flex items-center">
                           <FaPhoneAlt style={{ fontSize: "25px", marginRight: "10px",	marginBottom: "25px" }} />
                             <i className="fas fa-phone-alt mr-2" style={{ fontSize: "20px" }}></i>
-                               +91-9602880219, +91-7852071653
+                              +91-9887383167
                                 </li>
                                   <li className="mb-2 flex items-center">
                                  <MdEmail style={{ fontSize: "24px", marginRight: "10px" }} />
